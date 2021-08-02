@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'maven'
+    id 'eclipse'
+}
+
+sourceCompatibility = 1.8
+
+mainClassName = 'com.unicorn.lemis.Launch'
+
+group 'com.unicorn.lemis'
+version '1.0'
+
+repositories {
+    mavenLocal()
+    maven
+            {
+                url "http://maven.aliyun.com/nexus/content/groups/public/"
+            }
+
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    //implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'//online
+    //compile fileTree(dir:'src/main/resource/lib',includes:['*jar'])//localhost
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.12.1'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+    compile files('H:\\工程文件\\Laboratory Equipment Management Information System(Gradle)\\src\\main\\resources\\lib\\beautyeye_lnf.jar');
+    compile files('C:\\Users\\Future-Tech\\Desktop\\kano_dayo\\lib\\mysql-connector-java-8.0.23.jar')//localhost(自己设置前面的路径)
+    //compile files('C:\\Users\\Future-Tech\\Desktop\\kano_dayo\\lib\\Airilib-2020.3.jar')
+}
+
+test {
+    useJUnitPlatform()
+}
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Javadoc) {
+    options.encoding = 'UTF-8'
+}
