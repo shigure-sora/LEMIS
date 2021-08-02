@@ -6,20 +6,20 @@
 
 ## 功能
 #### 管理员
-实验室管理：系统管理员可以新增或查看或修改实验室信息
-实验技术员管理：系统管理员可以新增或查看或修改实验技术员信息
-设备管理：系统管理员可以新增或查看或修改设备信息
-设备报修申请：系统管理员可以新增或查看或修改设备报修申请信息
-维修管理：系统管理员可以查看或修改设备维修状态信息
-设备报修申请审核：系统管理员可以批准或驳回设备报修申请
+实验室管理：系统管理员可以新增或查看或修改实验室信息<br>
+实验技术员管理：系统管理员可以新增或查看或修改实验技术员信息<br>
+设备管理：系统管理员可以新增或查看或修改设备信息<br>
+设备报修申请：系统管理员可以新增或查看或修改设备报修申请信息<br>
+维修管理：系统管理员可以查看或修改设备维修状态信息<br>
+设备报修申请审核：系统管理员可以批准或驳回设备报修申请<br>
 #### 实验技术员
-设备管理：实验技术员可以新增或查看或修改设备信息
-设备报修申请：实验技术员可以新增或查看或修改设备报修申请信息
-维修管理：实验技术员可以查看或修改设备维修状态信息
+设备管理：实验技术员可以新增或查看或修改设备信息<br>
+设备报修申请：实验技术员可以新增或查看或修改设备报修申请信息<br>
+维修管理：实验技术员可以查看或修改设备维修状态信息<br>
 #### 维修技术员
-维修管理：维修员可以查看或修改设备维修状态信息
+维修管理：维修员可以查看或修改设备维修状态信息<br>
 #### 教师与学生等其他用户
-设备报修申请：教师与学生可以新增或查看或修改设备报修申请信息
+设备报修申请：教师与学生可以新增或查看或修改设备报修申请信息<br>
 
 **TODO**：
   - [ ] bugfix
@@ -31,8 +31,8 @@
   - [ ] 有好的数据库配置修改界面
 
 ## 使用方法
-编辑gradle.properties，启用网络资源，注释或删除本地资源描述
-导入IDE 建议使用IDEA，IDEA会自动识别gradle脚本，等待项目构建完成
+编辑gradle.properties，启用网络资源，注释或删除本地资源描述<br>
+导入IDE 建议使用IDEA，IDEA会自动识别gradle脚本，等待项目构建完成<br>
 
 ## 项目预览
 
@@ -60,35 +60,35 @@
 ![image](https://user-images.githubusercontent.com/60839179/127881043-f6827cb1-7604-4166-baa4-7cfa272a730f.png)
 
 ## 声明
-本项目所使用的图标包括about页面的图标均来自互联网，如有侵权，我将立刻删除
+本项目所使用的图标包括about页面的图标均来自互联网，如有侵权，我将立刻删除<br>
 
-互动图标来源iconfont-阿里巴巴矢量图标库
+互动图标来源iconfont-阿里巴巴矢量图标库<br>
 
-Airilib是目前我开发Minecraft mod 所用的外部库，恕不公开，望知悉。
+Airilib是目前我开发Minecraft mod 所用的外部库，恕不公开<br>
 
-特别感谢JetBrains为本项目提供 Intellij IDEA等IDE授权
+特别感谢JetBrains为本项目提供 Intellij IDEA等IDE授权<br>
 ![image](https://user-images.githubusercontent.com/60839179/127881222-51f94199-abe3-478f-82cb-bec8119ba1c7.png)
 
 ## 相关链接
-个人GitHub主页：https://github.com/shigure-sora
-iconfont-阿里巴巴矢量图标库 https://www.iconfont.cn/
-个人官网 https://soracraft.com/
-MVNrepository https://mvnrepository.com/
-JetBrains官网 https://www.jetbrains.com/zh-cn/
+个人GitHub主页：https://github.com/shigure-sora <br>
+iconfont-阿里巴巴矢量图标库 https://www.iconfont.cn/ <br>
+个人官网 https://soracraft.com/ <br>
+MVNrepository https://mvnrepository.com/ <br>
+JetBrains官网 https://www.jetbrains.com/zh-cn/ <br>
 
 ## 测试用户
-Administrator（authcode 122448）
-Id: 316381099
-Password:123456
-	Technician（authcode 140422）
-Id: 316381100
-Password:123456
-Maintenance Worker（authcode 211135）
-Id: 316381099
-Password:123456
-	Teacher（authcode 564465）
-Id: 316381114
-Password:123456
-	Student（authcode 165165）
-Id: 316381115
-Password:123456
+Administrator（authcode 122448）<br>
+Id: 316381099<br>
+Password:123456<br>
+Technician（authcode 140422）<br>
+Id: 316381100<br>
+Password:123456<br>
+Maintenance Worker（authcode 211135）<br>
+Id: 316381099<br>
+Password:123456<br>
+Teacher（authcode 564465）<br>
+Id: 316381114<br>
+Password:123456<br>
+Student（authcode 165165）<br>
+Id: 316381115<br>
+Password:123456<br>
