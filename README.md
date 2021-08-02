@@ -77,18 +77,18 @@ MVNrepository https://mvnrepository.com/ <br>
 JetBrains官网 https://www.jetbrains.com/zh-cn/ <br>
 
 ## 测试用户
-Administrator（authcode 122448）<br>
+-Administrator（authcode 122448）<br>
 Id: 316381099<br>
 Password:123456<br>
-Technician（authcode 140422）<br>
+-Technician（authcode 140422）<br>
 Id: 316381100<br>
 Password:123456<br>
-Maintenance Worker（authcode 211135）<br>
+-Maintenance Worker（authcode 211135）<br>
 Id: 316381099<br>
 Password:123456<br>
-Teacher（authcode 564465）<br>
+-Teacher（authcode 564465）<br>
 Id: 316381114<br>
 Password:123456<br>
-Student（authcode 165165）<br>
+-Student（authcode 165165）<br>
 Id: 316381115<br>
 Password:123456<br>
