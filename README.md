@@ -1,6 +1,6 @@
 # LEMIS
-实验设备管理信息系统(Laboratory Equipment Management Information System)
-
+实验设备管理信息系统(Laboratory Equipment Management Information System)<br>
+![image](https://user-images.githubusercontent.com/60839179/127880463-ebd4050b-ed41-4017-977b-7e99beda90fb.png)
 ## 标识与权限总览
 ![image](https://user-images.githubusercontent.com/60839179/127882028-10d8dc94-cce9-4745-bdcb-8356026a809e.png)
 
