@@ -1,4 +1,4 @@
-Translate with DeepL
+English version Translate with DeepL
 #### [中文文档](https://github.com/shigure-sora/LEMIS/blob/main/README_CN.md)
 # LEMIS
 A Laboratory Equipment Management Information System(LEMIS) written in Java Swing<br>
