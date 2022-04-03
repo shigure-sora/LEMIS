@@ -1,5 +1,6 @@
 package com.unicorn.lemis.filter;
 
+/**
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,11 +10,11 @@ import java.util.logging.LogRecord;
 
 import static com.unicorn.lemis.Launch.LOGGER;
 
-/**
+
  * @author kano_dayo
  * @date 2022/2/28 18:03
  * @description 设置编码UTF-8
- */
+ 
 
 public class EncodingFilter implements Filter {
 
@@ -45,3 +46,4 @@ public class EncodingFilter implements Filter {
         return false;
     }
 }
+*/
