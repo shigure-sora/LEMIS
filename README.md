@@ -68,7 +68,7 @@ Interactive icons from iconfont-Alibaba vector icon library<br>
 
 Airilib is the external library that I currently use to develop Minecraft mod<br>
 
-Special thanks to JetBrains for providing IDE licenses such as Intellij IDEA for this project.<br>
+Special thanks to JetBrains for providing IDE licenses for this project.<br>
 ![image](https://user-images.githubusercontent.com/60839179/127881222-51f94199-abe3-478f-82cb-bec8119ba1c7.png)
 
 ## Links
